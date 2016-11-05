@@ -1,0 +1,40 @@
+body {
+  background-position: center;
+}
+
+h1 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: lighter;
+  font-size: 45pt;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+nav li {
+  display: inline-flex;
+  padding-top: 0.5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 14pt;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.alinharvertical {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

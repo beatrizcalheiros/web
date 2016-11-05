@@ -1,0 +1,51 @@
+@import "variaveis";
+
+
+body{
+  background-position: center;
+}
+
+
+h1 {
+  font-family: $primaryfont;
+  font-weight: lighter;
+  font-size: 45pt;
+  text-align: center;
+}
+
+
+nav{
+  text-align: center;
+
+
+li{
+  display: inline-flex;
+  padding-top: 0.5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:lighter;
+  font-size: 14pt;
+}
+}
+
+ a:link{
+  text-decoration: none;
+	color: $branco;
+}
+
+a:hover{
+	text-decoration: none;
+	font-weight: normal;
+}
+
+a:visited {
+  @extend a:link ;
+}
+
+.alinharvertical {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
